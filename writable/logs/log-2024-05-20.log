@@ -1,0 +1,208 @@
+CRITICAL - 2024-05-20 10:42:06 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:42:13 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:42:43 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:06 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:17 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:18 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:18 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:25 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:25 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:25 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:25 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:25 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:43:26 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:44:05 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:45:03 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:45:12 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:45:37 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:46:10 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login-callback]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:49:29 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:49:35 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:51:12 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 12:51:29 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 12:51:32 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 10:51:59 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:52:26 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:52:27 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 12:52:33 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 12:52:34 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 12:52:35 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 12:52:35 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 10:52:51 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:53:26 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:55:03 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:55:23 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:14 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:15 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:15 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:16 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:16 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:16 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:56:34 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:03 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:04 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:04 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:09 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:09 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:57 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:57 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-20 10:57:58 --> ErrorException: Cannot declare class ComposerAutoloaderInitf9bdcc9d72958acba722e3c07f33b04c, because the name is already in use
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\composer\autoload_real.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,375 @@
+CRITICAL - 2024-05-16 07:53:07 --> ErrorException: Undefined variable $session
+[Method: GET, Route: authentication/login-callback]
+in APPPATH\Controllers\Authentication.php on line 109.
+ 1 APPPATH\Controllers\Authentication.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 109)
+ 2 APPPATH\Controllers\Authentication.php(39): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:00:25 --> ErrorException: Undefined array key "scope"
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 108.
+ 1 APPPATH\Controllers\Authentication.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope"', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 108)
+ 2 APPPATH\Controllers\Authentication.php(57): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:01:01 --> League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_token
+[Method: GET, Route: authentication/refreshToken]
+in FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php on line 236.
+ 1 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Authentication.php(54): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:01:08 --> League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_token
+[Method: GET, Route: authentication/refreshToken]
+in FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php on line 236.
+ 1 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Authentication.php(54): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:01:09 --> League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_token
+[Method: GET, Route: authentication/refreshToken]
+in FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php on line 236.
+ 1 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Authentication.php(54): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:01:09 --> League\OAuth2\Client\Provider\Exception\IdentityProviderException: invalid_token
+[Method: GET, Route: authentication/refreshToken]
+in FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php on line 236.
+ 1 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Authentication.php(54): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:06:19 --> ErrorException: Undefined variable $provider
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 57.
+ 1 APPPATH\Controllers\Authentication.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provider', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:06:20 --> ErrorException: Undefined variable $provider
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 57.
+ 1 APPPATH\Controllers\Authentication.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provider', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:17:54 --> ErrorException: Undefined array key "scope"
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 119.
+ 1 APPPATH\Controllers\Authentication.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope"', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 119)
+ 2 APPPATH\Controllers\Authentication.php(59): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:25:50 --> BadMethodCallException: Required parameter not passed: "refresh_token"
+[Method: GET, Route: authentication/refreshToken]
+in FCPATH\vendor\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 FCPATH\vendor\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', [...])
+ 2 FCPATH\vendor\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 FCPATH\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Authentication.php(55): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:30:03 --> ErrorException: Undefined variable $accessToken
+[Method: GET, Route: authentication/login-callback]
+in APPPATH\Controllers\Authentication.php on line 116.
+ 1 APPPATH\Controllers\Authentication.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accessToken', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 116)
+ 2 APPPATH\Controllers\Authentication.php(38): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken), 'getToken')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:32:02 --> ErrorException: Undefined variable $accessToken
+[Method: GET, Route: authentication/login-callback]
+in APPPATH\Controllers\Authentication.php on line 116.
+ 1 APPPATH\Controllers\Authentication.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accessToken', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Controllers\\Authentication.php', 116)
+ 2 APPPATH\Controllers\Authentication.php(38): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken), 'getToken')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 08:34:20 --> Error: Call to undefined method League\OAuth2\Client\Token\AccessToken::get()
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 125.
+ 1 APPPATH\Controllers\Authentication.php(59): App\Controllers\Authentication->CreateSessionToken(Object(League\OAuth2\Client\Token\AccessToken), 'refreshToken')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:09:44 --> ErrorException: Undefined variable $currentDatetime
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Views\Authentication.php on line 56.
+ 1 APPPATH\Views\Authentication.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentDatetime', 'C:\\xampp\\htdocs\\ThaIDLib\\app\\Views\\Authentication.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ThaIDLib\\app\\Views\\Authentication.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Authentication', [], true)
+ 5 APPPATH\Controllers\Authentication.php(66): view('Authentication')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:09:59 --> Error: Object of class DateTime could not be converted to string
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Views\Authentication.php on line 56.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Authentication', [], true)
+ 4 APPPATH\Controllers\Authentication.php(66): view('Authentication')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:10:00 --> Error: Object of class DateTime could not be converted to string
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Views\Authentication.php on line 56.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Authentication', [], true)
+ 4 APPPATH\Controllers\Authentication.php(66): view('Authentication')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:16:25 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:16:39 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:17:10 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:17:58 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:18:03 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:18:06 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:18:37 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:19:05 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:19:36 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:20:16 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:20:23 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:20:23 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:21:14 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:21:15 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:21:15 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:00 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:24 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:26 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:35 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:36 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-16 09:22:37 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: authentication/refreshToken]
+in APPPATH\Controllers\Authentication.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->refreshToken()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

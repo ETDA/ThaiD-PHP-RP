@@ -1,0 +1,377 @@
+CRITICAL - 2024-05-23 07:45:03 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:45:16 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:45:18 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:45:27 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:46:01 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:46:14 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:46:35 --> Error: Call to undefined method Config\OAuth2::GenerateRandomState()
+[Method: GET, Route: authentication/login]
+in APPPATH\Config\oauth2.php on line 39.
+ 1 APPPATH\Controllers\Authentication.php(15): Config\OAuth2->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:46:48 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:47:01 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:47:26 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:47:59 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:48:28 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:48:48 --> Error: Class "App\Controllers\OAuth2" not found
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:04 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:34 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:44 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:44 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:44 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:44 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:48 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:49 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:49:49 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:50:21 --> Error: Class "App\Controllers\OAuth2" not found
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:50:31 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:50:42 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:51:39 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:52:10 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:52:45 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:52:59 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:53:05 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:53:27 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:53:28 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:53:28 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:53:29 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:55:45 --> ErrorException: Undefined property: Config\OAuth2::$urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in APPPATH\Controllers\Authentication.php on line 22.
+ 1 APPPATH\Controllers\Authentication.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\OAuth2::$urlResourceOwnerDetails', 'C:\\Users\\User\\xampp\\htdocs\\WebSiteThaID\\app\\Controllers\\Authentication.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 07:58:08 --> InvalidArgumentException: Required options not defined: urlResourceOwnerDetails
+[Method: GET, Route: authentication/login]
+in FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php on line 152.
+ 1 FCPATH\vendor\league\oauth2-client\src\Provider\GenericProvider.php(92): League\OAuth2\Client\Provider\GenericProvider->assertRequiredOptions([...])
+ 2 APPPATH\Controllers\Authentication.php(16): League\OAuth2\Client\Provider\GenericProvider->__construct([...])
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Authentication->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 08:10:14 --> Error: Call to undefined method League\OAuth2\Client\Provider\GenericProvider::GetBasicAuthorizationCode()
+[Method: GET, Route: authentication/TokenInspect]
+in APPPATH\Controllers\Authentication.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->TokenInspect()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-23 08:11:17 --> Error: Call to undefined method League\OAuth2\Client\Provider\GenericProvider::GetBasicAuthorizationCode()
+[Method: GET, Route: authentication/TokenInspect]
+in APPPATH\Controllers\Authentication.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authentication->TokenInspect()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
