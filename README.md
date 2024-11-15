@@ -1,9 +1,33 @@
-# Integration of ThaID with PHP CodeIgniter 4
-This project shows how to connect **ThaID** to the **PHP CodeIgniter 4 Framework** using **Open ID Connect & OAuth2 authentication**. It lets you safely log in and give users access through ThaID.
-## # 📁🎛️ Settings for connecting to ThaID ##
-location: `PHP/app/config/oauth2.php`
+# 1. คำแนะนำเพื่อใช้งานแอปพลิเคชัน ThaIDAuthenExample เพื่อทดสอบการเชื่อมต่อระบบ ThaID ด้วยภาษา PHP 8.12 + CodeIgniter 4
 
-**Variables** for configuration used with ThaID data integration, such as Client ID, Client Secret, API Key, Callback URL, and Scope.
+แอปพลิเคชันเป็นตัวอย่างเพื่อแสดงวิธีการเชื่อมต่อ **ThaID** โดยใช้ภาษา **PHP 8.12** ร่วมกับเฟรมเวิร์ก **CodeIgniter 4** โดยใช้การยืนยันตัวตนด้วยมาตรฐาน **OpenID Connect & OAuth2**
+
+## # 📁 library ในโปรเจกต์
+
+1. **leagur/oauth2-client** เป็น library สำหรับจัดการ การเรียกใช้งาน OAuth2
+2. **firebase/php-jwt** เป็น library สำหรับจัดการ Token หลังจากเข้าใช้งาน OAuth2
+
+## # 📁 Runtime
+
+1. **PHP 8.12** (รวมอยู่ในชุดจัดการเครื่องแม่ข่ายเว็บ **XAMPP**)
+
+## # 🎛️ การติดตั้ง และตั้งค่าโปรแกรม XAMPP สำหรับใช้งานแอปพลิเคชัน
+
+**XAMPP** เป็นโปรแกรมที่ช่วยในการ **จัดการเครื่องแม่ข่ายเว็บ** ในเครื่องคอมพิวเตอร์ ประกอบด้วย **Apache HTTP Server, MySQL database**, และโปรแกรมภาษา **PHP** ช่วยให้นักพัฒนาเว็บสามารถทดสอบและพัฒนาเว็บไซต์ด้วยภาษา **PHP**
+
+1. ไปที่ เว็บไซต์ [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) เพื่อทำการดาวน์โหลด PHP
+2. ดาวน์โหลด version 8.2.12 / PHP 8.2.12
+3. ติดตั้ง **XAMPP** และเลือกใช้งาน **Apache** เพื่อรันเว็บไซต์ สามารถเลือกบริการที่ต้องการได้
+4. เลือก **Path** ที่ต้องการติดตั้ง XAMPP ได้ตามความสะดวกของผู้ใช้งาน เช่น **C:\xampp หรือ D:\xampp** ตามที่ผู้ใช้งานต้องการ
+5. คัดลอกไฟล์และโฟล์เดอร์ภายในโฟลเดอร์ **ThaIDAuthenExample** และนำไปวางที่ Path XAMPP ที่ตั้งค่าไว้
+   **ตัวอย่าง** วางโปรเจต์ PHP ไว้ที่ `C:\Users\User\xampp\htdocs`
+6. ตั้งค่าสำหรับการเชื่อมต่อ **ThaID** ตามรายละเอียดดังนี้
+
+---
+
+location: `PHP/app/Config/oauth2.php`
+แก่ไขค่าในตัวแปรสำหรับการเชื่อมโยงข้อมูล **ThaID** ได้แก่ **client id, client secret, API Key, Callback URL, Scope** ตามตัวอย่างในไฟล์
+
 ```PHP
     public $clientId     = '{Client_id}';
     public $clientSecret = '{Client_secret}';
@@ -19,7 +43,34 @@ location: `PHP/app/config/oauth2.php`
     public $urlRevokeToken ='';
     public $urlResourceOwnerDetails = '';
 ```
-**Functions** to support various settings for the library.
+
+---
+
+🚨**Important**🚨 ถ้า **XAMPP module Apache** กำลังทำงานอยู่ ให้ทำการ **หยุด (stop)** ก่อนที่จะทำการ **แก้ไข** config
+
+7. คลิกที่ปุ่ม **Config** ที่อยู่ข้าง Apache จากนั้นเลือก **httpd.conf** เพื่อแก้ไขคอนฟิกของ Apache
+8. ค้นหา **DocumentRoot** ในไฟล์ `httpd.conf` ถ้าเจอให้แก้ไข **Path** ของ DocumentRoot เป็น Path เช่น `C:\Users\User\xampp\htdocs\ThaID\PHP\public` ที่เป็นตำแหน่งของ **โปรเจกต์ public** แล้วคลิก **Save** หรือ **Ctrl + S** เพื่อ **บันทึก**
+9. คลิกที่ปุ่ม **Config** ที่อยู่ข้าง Apache จากนั้นเลือก **httpd-ssl.conf** เพื่อแก้ไขคอนฟิกของ Apache
+10. ค้นหา **General setup for the virtual host** ในไฟล์ `httpd-ssl.conf` แล้วเจอ ให้แก้ไขเป็น Path เช่น `C:\Users\User\xampp\htdocs\ThaID\PHP\public` ที่เป็นตำแหน่งของ **โปรเจกต์ public** แล้วคลิก **Save** หรือ **Ctrl + S** เพื่อ **บันทึก**
+11. คลิกที่ปุ่ม **Config** ที่อยู่ข้าง Apache จากนั้นเลือก **PHP (php.ini)** เพื่อแก้ไขคอนฟิกของ PHP
+12. ค้นหา **;extension=intl** ในไฟล์ `php.ini` ลบ **เซมิโคลอน** ออก **(;)** แล้วคลิก **Save** หรือ **Ctrl + S** เพื่อ **บันทึก**
+13. กดปุ่ม **Start** ที่อยู่ข้าง Apache
+14. เปิด **Browser** และไปที่ **URL** `http://localhost:8080/` หรือ `http://localhost:` ตามด้วย port ที่แสดงบน XAMPP
+
+---
+
+<br/><br/><br/>
+
+# 2. องค์ประกอบของแอปพลิเคชันภายในโซลูชัน
+
+## 📁 ThaIDAuthenExample
+
+## # 📁🎛️ การตั้งค่าสำหรับการเชื่อมต่อกับ ThaID
+
+location: `PHP/app/Config/oauth2.php`
+
+**Functions** เพื่อรองรับการตั้งค่าที่หลากหลายสำหรับ library
+
 ```PHP
     public function __construct() {
 
@@ -40,12 +91,12 @@ location: `PHP/app/config/oauth2.php`
             $this->urlAuthorize = $result['authorization_endpoint'];
             $this->urlGetPublicKey = $result['jwks_uri'];
             $this->urlAccessToken = $result['token_endpoint'];
-            $this->urlRevokeToken = $result['revocation_endpoint'];  
+            $this->urlRevokeToken = $result['revocation_endpoint'];
         }
         catch(\Throwable $e){
             echo $e->getMessage();
         }
-        
+
     }
 
     // function สำหรับ random state
@@ -58,10 +109,13 @@ location: `PHP/app/config/oauth2.php`
         return base64_encode($this->clientId . ':' . $this->clientSecret);
     }
 ```
-## # 📁🚩 Configuring Routes in a Web Application ##
-location: `PHP/app/config/Routes.php`
 
-**Settings** for different paths or routes in the application.
+## # 📁🚩 การตั้งค่าเส้นทางต่างๆในเว็บไซต์
+
+location: `PHP/app/Config/Routes.php`
+
+**Settings** สำหรับเส้นทางต่าง ๆ ในแอปพลิเคชัน
+
 ```PHP
     // Route หน้าแรก
     $routes->get('/', 'Home::index');
@@ -84,36 +138,46 @@ location: `PHP/app/config/Routes.php`
     // Route สำรับ redirect ไปหน้า dashboard
     $routes->get('/Dashboard', 'Home::Dashboard');
 ```
+
 **Important !!!**
 
-When registering with DOPA, ensure the **Callback URL** matches the Route for correct **Authorization Code** delivery. Adjust this on the **RP Admin website.**
+เมื่อทำการลงทะเบียนกับ DOPA ต้องแน่ใจว่า **Callback URL** จะตรงกับ routes เพื่อใช้งาน **Authorization Code** ที่ถูกต้อง สามารถปรับแต่งสิ่งนี้ใน เว็บไซต์ผู้ดูแล **RP Admin website**
+
 ```PHP
     $routes->get('/authentication/login-callback', 'Home::login');
 ```
-## # Authentication Function Connect to ThaID ##
+
+## # ฟังก์ชันการยืนยันตัวตนเชื่อมต่อกับ ThaID
+
 location: `PHP/app/Controllers/Home.php`
 
-Home controller is the main controller for this app, and all operations will be handled here.
+Home Controller เป็นตัวควบคุมหลักของแอปนี้ และจะจัดการทุกอย่างที่นี่
 
-**Function** for the main page of the web app.
+**ฟังก์ชัน** สำหรับหน้าแรกของเว็บแอป
+
 ```PHP
     public function index(): string
     {
         $this->RemoveSessionToken();
         return view('index');
-    } 
+    }
 ```
-**Function** for authenticated pages.
+
+**ฟังก์ชัน** สำหรับหน้าที่ต้องยืนยันตัวตน
+
 ```PHP
     public function Dashboard(){
         return view('Authentication');
-    } 
+    }
 ```
-**Function** for the authentication process. This controller checks for an Authorization Code in the parameters.
-- If there's no code, the app will redirect the user to ThaID for authentication.
-- If there's a code, the app will use the API to request a token set from ThaID.
+
+**ฟังก์ชัน** สำหรับการตรวจสอบสิทธิ์ ฟังก์ชันนี้จะดูว่ามี Authorization Code หรือไม่
+
+- หากไม่มีรหัส แอปจะพาผู้ใช้ไปยัง ThaID เพื่อยืนยันตัวตน
+- หากมีรหัส แอปจะใช้ API เพื่อขอรับโทเค็นจาก ThaID
+
 ```PHP
-    public function login(){ 
+    public function login(){
         if (!isset($_GET['code'])) { // เข้า if ถ้าไม่มี code มากับ path จะ redirect ไปที่หน้า Login ของ ThaID
             $authorizationUrl = $this->provider->getAuthorizationUrl();
             header('Location: ' . $authorizationUrl);
@@ -124,7 +188,7 @@ Home controller is the main controller for this app, and all operations will be 
                     'code' => $_GET['code'],
                 ]);
                 $this->CreateSessionToken($resultToken);
-            } 
+            }
             catch (IdentityProviderException $e) {
                 // ถ้า Get access token แล้ว error จะแสดง error message บนหน้าจอ
                 $errorResponse = $e->getResponseBody();
@@ -140,9 +204,11 @@ Home controller is the main controller for this app, and all operations will be 
             }
         }
         return redirect()->to('/Dashboard');
-    } 
+    }
 ```
-**Function** to request a new token when the Access Token has expired or is no longer valid, by calling the API with the Refresh Token.
+
+**ฟังก์ชัน** สำหรับขอรับโทเค็นใหม่เมื่อ Access Token หมดอายุหรือใช้ไม่ได้ โดยการเรียก API ด้วย Refresh Token.
+
 ```PHP
     public function RefreshToken (){
         if($this->session->get('refreshToken') != null){
@@ -154,7 +220,7 @@ Home controller is the main controller for this app, and all operations will be 
 
                 // เอา access token ไปเก็บใน Session
                 $this->CreateSessionToken($resultToken);
-            } 
+            }
             catch (IdentityProviderException $e){
                 // ถ้า Get access token แล้ว error จะแสดง error message บนหน้าจอ
                 $errorResponse = $e->getResponseBody();
@@ -168,7 +234,9 @@ Home controller is the main controller for this app, and all operations will be 
         return redirect()->to('/Dashboard');
     }
 ```
-**Function** to check if an Access Token is still valid by using the API Introspect Token, in cases where it's an Authorized Resource and a request for information comes from another system using ThaID.
+
+**ฟังก์ชัน** สำหรับตรวจสอบว่า Access Token ยังคงใช้งานได้หรือไม่ โดยการใช้ API Introspect Token ในกรณีที่เป็นทรัพยากรที่ได้รับอนุญาตและมีการขอข้อมูลจากระบบที่ใช้ ThaID
+
 ```PHP
     public function TokenInspect(){
         $url = $this->oauthConfig->urlIntrospectToken;
@@ -192,7 +260,9 @@ Home controller is the main controller for this app, and all operations will be 
         return $result;
     }
 ```
-**Function** to request the revocation of an Access Token by calling the Revoke Token API.
+
+**ฟังก์ชัน** สำหรับขอให้ยกเลิก Access Token โดยการเรียก API Revoke Token
+
 ```PHP
     public function TokenRevoke(){
         $url = $this->oauthConfig->urlRevokeToken;
@@ -201,7 +271,7 @@ Home controller is the main controller for this app, and all operations will be 
         $dataBody = array(
             'token' => "$token"
         );
-        
+
         $basicBase64 = $this->oauthConfig->GetBasicAuthorizationCode();
         $dataString = http_build_query($dataBody);
         curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
@@ -216,7 +286,9 @@ Home controller is the main controller for this app, and all operations will be 
         return $result;
     }
 ```
-**Function** to verify if the ID Token received from ThaID complies with OpenID Connect standards.
+
+**ฟังก์ชัน** สำหรับตรวจสอบว่า ID Token ที่ได้จาก ThaID ตรงตามมาตรฐาน OpenID Connect หรือเปล่า
+
 ```PHP
     public function ValidateToken(){
         try{
@@ -233,7 +305,9 @@ Home controller is the main controller for this app, and all operations will be 
         }
     }
 ```
-**Function** to create a session for storing information received from ThaID.
+
+**ฟังก์ชัน** สำหรับสร้างเซสชันสำหรับเก็บข้อมูลจาก ThaID
+
 ```PHP
     public function CreateSessionToken($Token){
 
@@ -244,13 +318,15 @@ Home controller is the main controller for this app, and all operations will be 
         session()->set('idToken', $Token->getValues()['id_token']);
         session()->set('scope', $Token->getValues()['scope']);
         session()->set('tokenType', $Token->getValues()['token_type']);
-        
+
         $jwks = json_decode(file_get_contents($this->oauthConfig->urlGetPublicKey), true);
         $resultValidate = JWT::decode($Token->getValues()['id_token'], JWK::parseKeySet($jwks));
         $this->session->set('tokenDecode', $resultValidate);
     }
 ```
-**Function** to delete the session when a user logs out.
+
+**ฟังก์ชัน** สำหรับลบเซสชันเมื่อผู้ใช้ออกจากระบบ
+
 ```PHP
     public function RemoveSessionToken(){
         $this->session->remove('accessToken');
@@ -261,10 +337,13 @@ Home controller is the main controller for this app, and all operations will be 
         $this->session->remove('idToken');
         $this->session->remove('tokenDecode');
         $this->session->destroy();
-    } 
+    }
 ```
-## # 📁📄 Home Page Display for the Application ##
+
+## # 📁📄 แสดงผลหน้าแรกของแอปพลิเคชัน
+
 location: `PHP/app/Views/index.php`
 
-## # 📁📄 Display Page for Showing Information After Authentication ##
+## # 📁📄 หน้าจอสำหรับแสดงข้อมูลหลังจากยืนยันตัวตน
+
 location: `PHP/app/Views/Authentication.php`
